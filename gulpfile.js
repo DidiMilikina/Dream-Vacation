@@ -21,7 +21,7 @@ gulp.task('js', function () {
     gulp.src('./src/scripts/*.js')
         .pipe(concat('scripts.min.js'))
         .pipe(uglify())
-        .pipe(gulp.dest('./dist/scripts'))
+        .pipe(gulp.dest('./dist/scripts/'))
 });
 
 gulp.task('default', ["sass","js","watch"]);
