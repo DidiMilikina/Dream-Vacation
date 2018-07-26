@@ -1,0 +1,19 @@
+.footer__info {
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: #868686;
+    .footer__content {
+        display: flex;
+        justify-content: space-between;
+        width: 75%;
+        margin: 0 auto;
+        height: 100%;
+        text-align: right;
+    }
+    ul li {
+        list-style: none;
+        display: inline-block;
+        width: 150px;
+    }
+}

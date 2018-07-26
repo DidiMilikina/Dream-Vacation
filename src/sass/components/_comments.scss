@@ -1,0 +1,46 @@
+.customers__thoughts {
+    text-align: center;
+    margin-bottom: 112px;
+    font-size: 15px;
+    color: #868686;
+    .thoughts__container {
+        width: 71%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        .customer {
+            width: 32%;
+            .customer__image img {
+                border-radius: 50%;
+                border: 10px solid #f5f5f5;
+            }
+            .customer__name {
+                font-size: 15px;
+                font-weight: 900;
+                margin: 19px 0;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+
+.footer__info {
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: #868686;
+    .footer__content {
+        display: flex;
+        justify-content: space-between;
+        width: 75%;
+        margin: 0 auto;
+        height: 100%;
+        text-align: right;
+    }
+    ul li {
+        list-style: none;
+        display: inline-block;
+        width: 150px;
+    }
+}
