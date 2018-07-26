@@ -1,0 +1,167 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+@import "https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900";
+@import "https://fonts.googleapis.com/css?family=Open+Sans:400,600,700)";
+* {
+  margin: 0;
+  padding: 0; }
+
+h2 {
+  font-size: 35px;
+  color: #000000; }
+
+html {
+  width: 100%; }
+
+body {
+  width: 100%;
+  font-family: Lato, sans-serif; }
+
+.header--section {
+  width: 100%;
+  height: 550px;
+  text-align: center;
+  background: linear-gradient(#00000066, #00000080), url(/images/background.jpg) no-repeat center center; }
+  .header--section .logo {
+    display: flex;
+    padding-top: 20px;
+    padding-left: 120px; }
+  .header--section .nav--primary {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -30px; }
+    .header--section .nav--primary .nav--item {
+      margin: 10px;
+      list-style: none; }
+      .header--section .nav--primary .nav--item a {
+        text-decoration: none;
+        color: #ffffff;
+        font-weight: bold;
+        text-transform: uppercase; }
+  .header--section .heading {
+    margin-top: 150px;
+    color: #ffffff; }
+    .header--section .heading h1 {
+      font-weight: 200px;
+      font-size: 60px;
+      margin-bottom: 10px; }
+    .header--section .heading h5 {
+      font-size: 17px;
+      font-weight: 400; }
+
+.tab__section .container {
+  width: 800px;
+  margin: 30px auto; }
+  .tab__section .container ul.tabinator {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+    .tab__section .container ul.tabinator li {
+      background: none;
+      color: #222;
+      display: inline-block;
+      padding: 10px 15px;
+      cursor: pointer; }
+      .tab__section .container ul.tabinator li.current {
+        background: #ededed;
+        color: #222; }
+  .tab__section .container .source .tab__content {
+    display: none;
+    background: #ededed;
+    padding: 15px; }
+    .tab__section .container .source .tab__content.current {
+      display: inherit; }
+
+.best__offers {
+  text-align: center;
+  background: #f5f5f5;
+  padding-bottom: 44px; }
+  .best__offers .section__heading {
+    padding: 51px 0 40px;
+    font-weight: 600px;
+    margin-bottom: 15px; }
+    .best__offers .section__heading p {
+      font-size: 25px;
+      margin: 5px;
+      color: #868686;
+      font-size: 12px; }
+  .best__offers .offers__container {
+    width: 71%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    .best__offers .offers__container .offer {
+      width: 32%;
+      background: #ffffff;
+      margin-bottom: 35px; }
+      .best__offers .offers__container .offer img {
+        width: 100%; }
+      .best__offers .offers__container .offer .offer__info {
+        width: 100%;
+        height: 50px;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 22px;
+        padding-right: 22px;
+        font-size: 18px;
+        font-weight: bold; }
+        .best__offers .offers__container .offer .offer__info p:first-of-type {
+          font-weight: 900px; }
+
+.customers__thoughts {
+  text-align: center;
+  margin-bottom: 112px;
+  font-size: 15px;
+  color: #868686; }
+  .customers__thoughts .thoughts__container {
+    width: 71%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between; }
+    .customers__thoughts .thoughts__container .customer {
+      width: 32%; }
+      .customers__thoughts .thoughts__container .customer .customer__image img {
+        border-radius: 50%;
+        border: 10px solid #f5f5f5; }
+      .customers__thoughts .thoughts__container .customer .customer__name {
+        font-size: 15px;
+        font-weight: 900;
+        margin: 19px 0;
+        letter-spacing: 2px;
+        text-transform: uppercase; }
+
+.footer__info {
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  color: #868686; }
+  .footer__info .footer__content {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    margin: 0 auto;
+    height: 100%;
+    text-align: right; }
+  .footer__info ul li {
+    list-style: none;
+    display: inline-block;
+    width: 150px; }
+
+.footer__info {
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  color: #868686; }
+  .footer__info .footer__content {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    margin: 0 auto;
+    height: 100%;
+    text-align: right; }
+  .footer__info ul li {
+    list-style: none;
+    display: inline-block;
+    width: 150px; }
